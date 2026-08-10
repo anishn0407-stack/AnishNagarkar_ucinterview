@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #01174d;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background:
+        radial-gradient(
+            circle at top,
+            #1e3a8a55,
+            transparent 45%
+        );
+}
+
+.hero_profile img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    box-shadow:0 0 25px #38bdf855;
+}
+
+.hero_title h1 {
+    font-size: 3.5rem;
+    color: #f8fafc;
+    margin-bottom: 15px;
+    /* text-decoration: underline white; */
+}
+
+.hero_about {
+    width: 750px;
+    font-size: 1.2rem;
+    color: #94a3b8;
+    line-height: 1.8;
+}
+
+.edu,.achievements,.projects,.tech {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 16px;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+
+.edu_title h2,.achievements_title h2,.projects_title h2,.tech_title h2 {
+    font-size: 2rem;
+    color: #f4f7fa;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #1e293b;
+}
+
+.edu_info,.achievements_info,.projects_li > ul,.tech_info {
+    padding-left: 25px;
+}
+
+.edu_info  li,.achievements_info  li,.projects_li ul{
+    color: #f1f5f9;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.edu_info ul,.achievements_info ul,.projects_li ul ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.edu_info ul li,.achievements_info ul li,.projects_li ul ul li {
+    color: #abbcd3;
+    font-size: 0.98rem;
+    margin: 6px 0;
+}
+
+.projects_info li b{
+    color: #38bdf8;
+}
+
+.tech_info {
+    list-style: none;
+}
+
+.tech_info li {
+    background-color: #16274e;
+    border: 1px solid #1e293b;
+    padding: 15px 20px;
+    margin: 12px 0;
+    border-radius: 10px;
+    color: #cbd5e1;
+    transition: 0.25s ease;
+}
+
+.tech_info b {
+    color: #38bdf8;
+}
+
